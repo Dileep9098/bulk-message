@@ -2,10 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.DB_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    const conn = await mongoose.connect(process.env.DB_URL);
 
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
@@ -32,3 +29,12 @@ export default connectDB;
 // };
 
 // export default connectDB;
+
+
+
+// "scripts": {
+//   "dev": "nodemon backend/server.js",
+//   "test": "echo \"Error: no test specified\" && exit 1",
+//   "build": "npm install && npm install --prefix bulk-message && npm run build --prefix bulk-message",
+//   "start": "node backend/server.js"
+// },

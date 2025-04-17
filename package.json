@@ -7,7 +7,7 @@
     "dev": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install && npm install --prefix bulk-message && npm run build --prefix bulk-message",
-    "start": "nodemon backend/server.js"
+    "start": "node backend/server.js"
   },
   "keywords": [],
   "author": "",
