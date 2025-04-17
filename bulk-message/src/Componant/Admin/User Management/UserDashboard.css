@@ -1,0 +1,48 @@
+/* Search input */
+.dataTable-wrapper .dataTable-input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    width: 300px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+  
+  /* Rows per page dropdown */
+  .dataTable-wrapper .dataTable-selector {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    border: 1px solid #ced4da;
+    margin-left: 1rem;
+    font-size: 14px;
+  }
+  
+  /* Pagination */
+  .dataTable-wrapper .dataTable-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+  }
+  
+  .dataTable-wrapper .dataTable-pagination .active a,
+  .dataTable-wrapper .dataTable-pagination a {
+    padding: 0.375rem 0.75rem;
+    color: #0d6efd;
+    text-decoration: none;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    transition: all 0.2s;
+  }
+  
+  .dataTable-wrapper .dataTable-pagination .active a {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .dataTable-wrapper .dataTable-pagination a:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
